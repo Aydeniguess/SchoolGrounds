@@ -1,4 +1,3 @@
-
 /* The navigation bar */
 
 .nav {
@@ -59,10 +58,12 @@
 }
 
 body {
-    background: url("images/skin-funkin-cardbordtoast.png");
     background-color: #333;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url("https://cdn.schgnd.ml/images/msb.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
@@ -78,7 +79,7 @@ a.home {
 
 .comic {
     font-family: Cursive;
-    color: magenta;
+    color: black;
 }
 
 .pixel {
@@ -110,8 +111,8 @@ embed {
 
 @font-face {
     font-family: "pixel";
-    src: url("fonts/minecraft-webfont.woff2");
-    src: url("fonts/minecraft-webfont.woff") format("woff"),
+    src: url("https://cdn.schgnd.ml/fonts/minecraft-webfont.woff2");
+    src: url("https://cdn.schgnd.ml/fonts/minecraft-webfont.woff") format("woff"),
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
@@ -136,6 +137,7 @@ ruffle-embed {
     margin-left: auto;
     margin-right: auto;
 }
+
 #canvas {
     display: block;
     margin-left: auto;
